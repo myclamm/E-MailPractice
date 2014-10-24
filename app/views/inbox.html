@@ -1,0 +1,7 @@
+<div class="inbox">
+	<div class="mailItem" ng-repeat="mail in inboxItems" ng-click="openMail(mail)">
+		<a>From: </a> <b class="from">{{mail.from}}</b> <b class="subject">{{mail.subject}}</b> - <a class ="text">{{mail.text}}</a>
+		<a class="date">{{mail.date}}</a>
+	</div>
+		
+</div>

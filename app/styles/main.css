@@ -1,0 +1,239 @@
+
+h1 {
+      font-size: 50px;
+      padding: 10px 0px 0px 0px;
+      font-family: Cambria;
+      text-align: center;
+    }
+
+button,input {
+  padding: 5px 5px;
+  margin: 5px;
+}
+.welcome {
+  margin-left: 5%;
+  font-size: 30px;
+  font-family: Cambria;
+}
+.submitButtons {
+  margin-left: 30%;
+}
+.choices {
+  width: 15%;
+  margin-left: 5%;
+  float: left;
+  height: 300px;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 10px;
+}
+.loginBox {
+  border: 2px solid;
+  width: 400px;
+  margin-left: 30%;
+  height: 100px;
+}
+
+.choicesButton {
+  padding: 10px;
+  font-size: 25px;
+}
+.theViews {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 600px;
+  border: 2px solid;
+  border-color: black;
+}
+.outbox {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 600px;
+  border: 2px solid;
+  border-color: orange;
+}
+.compose {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 300px;
+  border: 2px solid;
+  border-color: purple;
+}
+.trash {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 600px;
+  border: 2px solid;
+  border-color: brown;
+}
+.subjectBox {
+  margin-left: 5%;
+  border: 2px solid;
+  font-size: 15px;
+}
+.textBox {
+  margin-left: 5%;
+}
+.sendButton {
+  margin-left: 25%;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.sendButton:hover {
+  background-color:#5cbf2a;
+}
+.sendButton:active {
+  position:relative;
+  top:1px;
+}
+.text {
+  display: inline-block;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+.date {
+  float: right;
+}
+.subject {
+  margin-left: 50px;
+  text-align: left;
+}
+.from {
+  display: inline-block;
+  width: 45px;
+}
+.inbox {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 600px;
+  border: 2px solid;
+  border-color: green;
+}
+.mailItem {
+  font-size: 20px;
+  border-bottom: 2px solid;
+  height: 30px;
+  padding:3px;
+  cursor: pointer;
+}
+.singleMail {
+  font-size: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 600px;
+  border: 2px solid;
+  border-color: black;
+}
+.singleSubject {
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+.singleFrom { 
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.singleText {
+  margin: 10px;
+}
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.orange {
+  font-size: 12px;
+  color: orange;
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

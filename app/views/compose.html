@@ -1,0 +1,6 @@
+<form>
+<div><input class="subjectBox" size="118" type="text" ng-model="sendTo" placeholder="To:"></input></div>
+<div><input class="subjectBox" size="118" type="text" ng-model="subject" placeholder="Subject:"></input></div>
+<textarea class="textBox" cols="150" name="S1" rows="20" ng-model="mailText"></textarea>
+<div><button type="submit" class="sendButton" ng-click="send(sendTo,subject,mailText)">Send</button></div>
+</form>

@@ -1,0 +1,1 @@
+trashCtrl.js
