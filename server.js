@@ -6,4 +6,4 @@ require('./server/routes.js')(app);
 var port = process.env.PORT || 3000;
 // var url = process.env.URL || 'localhost';
 app.listen(port);
-console.log('Listening on',url,':',port);
+console.log('Listening on',port);
