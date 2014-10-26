@@ -1,6 +1,7 @@
 var mongoose = require("mongoose");
+var host = process.env.MONGOHQ_URL || "mongodb://@127.0.0.1:27017/mail";
 
-mongoose.connect('mongodb://localhost/mail');
+mongoose.connect(host);
 
 var UserSchema = new mongoose.Schema({
 	username: {
