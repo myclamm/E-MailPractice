@@ -89,6 +89,7 @@ db.createMail = function (from,to,subject,text,callback) {
 
 db.createUser = function(username, password, callback) {
 	console.log('inside name checker')
+	console.log(username,password)
 	var query = user.find({'username': username})
 	query.exec(function (err, result) {
 		if(err){
