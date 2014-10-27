@@ -5,5 +5,9 @@ require('./server/routes.js')(app);
 
 var port = process.env.PORT || 3000;
 
-app.listen(port);
+var server = app.listen(port);
 console.log('Listening on',port);
+
+exports.shutdown = function() {
+	server.close();
+}
